@@ -10,6 +10,7 @@ import GalaxyGreen from '../images/GalaxyGreen.jpg';
 import GalaxyOrange from '../images/GalaxyOrange.jpg';
 import GymnastPulling from '../images/GymnastPulling.svg';
 import GymnastHanging from '../images/GymnastHanging.svg';
+import GappnaderoLogo from '../images/GappnaderoLogo.png';
 
 
 export default function App() {
@@ -179,6 +180,27 @@ export default function App() {
                   alt="Remix"
                   className="w-full h-full"
                 />
+    
+        </ParallaxLayer>
+        <ParallaxLayer offset={2} speed={-0.2} style={{ pointerEvents: 'none' }}>
+
+        <div className="grid grid-cols-2 gap-4">
+  <div> <p>
+        <span className="block uppercase text-purple-500 drop-shadow-md">
+         PWA for cattle register. Data, milk collection and heat proximity alert. 
+        </span>
+      </p></div>
+  <div> <img
+                  src={GappnaderoLogo}
+                  alt="Remix"
+                  className="w-1/2"
+                /></div>
+                 <div> <p>
+                 <a href="https://www.w3schools.com">www.gappnadero.com</a>
+
+      </p></div>
+</div>
+              
     
         </ParallaxLayer>
       </Parallax>
